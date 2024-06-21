@@ -4,3 +4,4 @@ src
 vite.config.js
 .vscode/*
 !.vscode/extensions.json
+*.tgz

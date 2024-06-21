@@ -1,7 +1,7 @@
 {
   "name": "react-modal-text",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,5 +22,18 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.1"
-  }
+  },
+  "description": "Simple react modal to display text.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Staphir/react-modal-text.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "modal"
+  ],
+  "author": "Maxime Dulieu",
+  "license": "ISC"
 }
