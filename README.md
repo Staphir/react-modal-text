@@ -1,8 +1,23 @@
-# React + Vite
+# react-modal-text
+Ce composant permet de créer un bouton qui ouvre une modale avec du texte. Il est également possible d'affecter des fonctions à l'ouverture et à la fermeture de la modale. Ce composant a été créé dans le cadre d'un projet de la formation OpenClassrooms Développeur d'application - JavaScript React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Utilisation
+Ce composant à 4 propriétés :
+- **buttonName** [_String_] (obligatoire) 
+- **text** [_String_] (obligatoire)
+- **onOpen** [_function_]
+- **onClose** [_function_]
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Exemples
+## Juste une modale avec un texte
+``` javascript
+<ModalText buttonName="Modal button" text="Text in modal"></ModalText>
+```
+## Fonction lors de l'ouverture et de la fermeture de la modale
+``` javascript
+const openModalFunction = () => console.log("modal open");
+const closeModalFunction = () => console.log("modal close");
+```
+``` javascript
+<ModalText buttonName="Modal button" text="Text in modal" onOpen={openModalFunction} onClose={closeModalFunction}></ModalText>
+```
