@@ -26,7 +26,6 @@ const closeModalFunction = () => console.log("modal close");
 
 # react-modal-text
 This component create a button that open textual modal. There is possible to affect functions when open and close modal. This component has created during the OpenClassrooms formation : _Développeur d'application - JavaScript React_.
-Ce composant permet de créer un bouton qui ouvre une modale avec du texte. Il est également possible d'affecter des fonctions à l'ouverture et à la fermeture de la modale. Ce composant a été créé dans le cadre d'un projet de la formation OpenClassrooms Développeur d'application - JavaScript React.
 
 # Utilisation
 This component has 4 properties :
