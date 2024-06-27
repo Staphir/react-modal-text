@@ -21,3 +21,29 @@ const closeModalFunction = () => console.log("modal close");
 ``` javascript
 <ModalText buttonName="Modal button" text="Text in modal" onOpen={openModalFunction} onClose={closeModalFunction}></ModalText>
 ```
+
+---
+
+# react-modal-text
+This component create a button that open textual modal. There is possible to affect functions when open and close modal. This component has created during the OpenClassrooms formation : _Développeur d'application - JavaScript React_.
+
+# Utilisation
+This component has 4 properties :
+- **buttonName** [_String_] (require) 
+- **text** [_String_] (require)
+- **onOpen** [_function_]
+- **onClose** [_function_]
+
+# Examples
+## Simple modal with text
+``` javascript
+<ModalText buttonName="Modal button" text="Text in modal"></ModalText>
+```
+## Function when open and close modal
+``` javascript
+const openModalFunction = () => console.log("modal open");
+const closeModalFunction = () => console.log("modal close");
+```
+``` javascript
+<ModalText buttonName="Modal button" text="Text in modal" onOpen={openModalFunction} onClose={closeModalFunction}></ModalText>
+```
