@@ -644,5 +644,5 @@ function gr({ buttonName: F, text: R, onOpen: C, onClose: b }) {
   ] });
 }
 export {
-  gr as default
+  gr as ModalText
 };

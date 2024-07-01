@@ -26,4 +26,4 @@ function ModalText ({buttonName, text, onOpen, onClose}) {
     )
 }
 
-export default ModalText;
+export { ModalText } ;
