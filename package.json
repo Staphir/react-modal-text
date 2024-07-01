@@ -24,7 +24,14 @@
     "vite": "^5.3.1"
   },
   "description": "Simple react modal to display text.",
-  "main": "vite.config.js",
+  "main": "./dist/react-modal-text.umd.js",
+  "module": "./dist/react-modal-text.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-modal-text.es.js",
+      "require": "./dist/react-modal-text.umd.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Staphir/react-modal-text.git"

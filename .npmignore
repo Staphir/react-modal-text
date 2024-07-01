@@ -1,6 +1,0 @@
-node_modules
-.eslintrc.cjs
-vite.config.js
-.vscode/*
-!.vscode/extensions.json
-*.tgz
