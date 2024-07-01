@@ -23,7 +23,23 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.1"
   },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "description": "Simple react modal to display text.",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "main": "./dist/react-modal-text.umd.js",
   "module": "./dist/react-modal-text.es.js",
   "exports": {

@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/react-modal-text.jsx'),
+      entry: path.resolve(__dirname, 'src/lib/react-modal-text.jsx'),
       name: 'react-modal-text',
       fileName: (format) => `react-modal-text.${format}.js`
     },
