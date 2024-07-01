@@ -9,6 +9,11 @@ Ce composant à 4 propriétés :
 - **onClose** [_function_]
 
 # Exemples
+## Import du composant et de son style
+``` javascript
+import { ModalText } from "react-modal-text";
+import 'react-modal-text/dist/style.css';
+```
 ## Juste une modale avec un texte
 ``` javascript
 <ModalText buttonName="Modal button" text="Text in modal"></ModalText>
@@ -35,6 +40,11 @@ This component has 4 properties :
 - **onClose** [_function_]
 
 # Examples
+## Import component and style
+``` javascript
+import { ModalText } from "react-modal-text";
+import 'react-modal-text/dist/style.css';
+```
 ## Simple modal with text
 ``` javascript
 <ModalText buttonName="Modal button" text="Text in modal"></ModalText>

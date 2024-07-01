@@ -46,10 +46,6 @@
     ".": {
       "import": "./dist/react-modal-text.es.js",
       "require": "./dist/react-modal-text.umd.js"
-    },
-    "./dist/*.css": {
-      "import": "./dist/*.css",
-      "require": "./dist/*.css"
     }
   },
   "repository": {

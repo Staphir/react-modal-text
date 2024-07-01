@@ -10,6 +10,8 @@ export default defineConfig({
       name: 'react-modal-text',
       fileName: (format) => `react-modal-text.${format}.js`
     },
+    cssCodeSplit: false,
+    assetsInlineLimit: 0,
     rollupOptions: {
       external: ['react', 'react-dom'],
       output: {

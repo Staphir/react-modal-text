@@ -1,3 +1,9 @@
+.modal-button {
+  background-color: #d1d5db;
+  border: black solid 1px;
+  padding: 0 8px 0 8px;
+}
+
 .modal-dialog {
     border: none;
     border-radius: 10px;
